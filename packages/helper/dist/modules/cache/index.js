@@ -1,4 +1,4 @@
-class Cache {
+export class Cache {
     constructor(prefix = 'app_') {
         this.prefix = prefix;
     }
@@ -68,4 +68,3 @@ class Cache {
         return `${this.prefix}${key}`;
     }
 }
-export default Cache;

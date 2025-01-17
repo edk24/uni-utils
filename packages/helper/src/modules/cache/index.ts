@@ -1,4 +1,4 @@
-class Cache {
+export class Cache {
     private readonly prefix: string;
 
     constructor(prefix: string = 'app_') {
@@ -74,5 +74,3 @@ class Cache {
         return `${this.prefix}${key}`;
     }
 }
-
-export default Cache;

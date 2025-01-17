@@ -1,11 +1,14 @@
 {
-  "name": "cache",
-  "version": "0.0.1",
+  "name": "yuxiaobo-uni-helper",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p ."
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@dcloudio/types": "^3.4.14",
     "typescript": "^5.7.3"

@@ -1,0 +1,11 @@
+{
+    "name": "create-yuxiaobo-uni",
+    "version": "0.0.7",
+    "bin": {
+        "create-yuxiaobo-uni": "./bin/cli.mjs"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.4.1"
+    }
+}

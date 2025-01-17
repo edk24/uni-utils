@@ -1,4 +1,4 @@
-declare class Cache {
+export declare class Cache {
     private readonly prefix;
     constructor(prefix?: string);
     /**
@@ -31,4 +31,3 @@ declare class Cache {
      */
     private getKey;
 }
-export default Cache;
